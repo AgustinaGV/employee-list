@@ -38,7 +38,7 @@ const Card = props => {
                     Editar
                 </button>
                 <button className="App-button" 
-                onClick = {handleDeleteEmployee}>
+                onClick = {() => handleDeleteEmployee(id)}>
                     Eliminar
                 </button>
 

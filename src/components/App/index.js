@@ -262,7 +262,7 @@ const Dropdown = props => {
               onClick={onRemoveSelectedSector}
               style={{ marginLeft: '15px' }}
             >
-              <span>{selectedSector}</span>
+              <span>{selectedSector} X</span>
               <span className='icon is-small'>
                 <i className='fas fa-trash-alt' aria-hidden='true' />
               </span>
